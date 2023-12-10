@@ -35,16 +35,17 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1564246389";
+    const serviceWorkerVersion = "1386953246";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
   
   <script type="module">
+          
       import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
     import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
     import { getStorage } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js';
-        const app = initializeApp(firebaseConfig);
+
     const firebaseConfig = {
       name: "attendance-monitoring",
 
@@ -56,7 +57,7 @@
       appId: "1:923340212066:web:cfa048f322dbd305098e3b",
 
     };
-
+    const app = initializeApp(firebaseConfig);
     // Initialize Firebase
 
   </script>
